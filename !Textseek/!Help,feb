@@ -1,0 +1,3 @@
+Obey <Obey$Dir>.!Boot
+If "<Stronghelp$Dir>"="" Then Error Could not find a copy of !StrongHelp - a help summary and History file is also available in the ReadMe file inside this application
+Filer_Run TextseekRes:Textseek

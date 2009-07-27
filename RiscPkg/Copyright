@@ -1,0 +1,87 @@
+Textseek
+
+Author Harriet Bazley, harriet@bazley.freeuk.com
+
+Package maintained by Alan Buckley, alan_baa@hotmail.com.
+
+Textseek was downloaded for packaging from:
+http://www.starfighter.acornarcade.com/mysite/utilities.htm
+
+Textseek is freeware. Full source code is provided. You may alter it or re-use parts of it in your own programs as you please, but you may not redistribute altered versions against the authors will.
+
+This version has minor adjustments for Packaging with permission of the
+Author.
+
+Textseek also uses DrWimp and the Sliding Heap module. The Sliding Heap module
+is provided in a separate package.
+
+DrWimp
+© Andrew Ayre 1995-98
+Major updates and additions by Guy Bartle
+© Ray Favre - additions/changes from 1st May 1999
+Version 4.30 (01-Jul-05)
+
+*** CONDITIONS OF USE ***
+--------------------------------------------------------------------
+The Dr Wimp package is distributed on an ”As Is• basis, without
+warranty. No liability can be accepted for any consequential loss or
+damage, however caused, arising from the use of this package.
+
+The Dr Wimp package (apart from the 3rd party utilities as detailed in
+the !!ReadMe!! file) may only be distributed as a whole. For
+conditions of use of these 3rd party applications see their own !Help
+files.
+
+Distribution of the Dr Wimp package (and programs constructed using
+the DrWimp library) by third parties:
+
+Freeware. The DrWimp library may be distributed for free and without
+the documentation, examples, utilities, etc. if it is being used as
+part of a freeware product. (It would be nice if your documentation
+acknowledged Dr Wimp - and don't forget that my web-site has a page
+for links to your Dr Wimp applications, if you let me know .....)
+
+Shareware. Those using Dr Wimp to produce Shareware products must
+donate 10% of the received income from these products to a charity of
+their choice within 6 months of receiving the income. The Shareware
+user-documentation must state prominently that this charity donation
+is being made and also that Dr Wimp was used to produce the product.
+The application's name and author should be notified to the Dr Wimp
+copyright holder but no prior permission or further contact is needed.
+
+Commercial. If you wish to distribute the Dr Wimp package with a
+commercial product (or distribute commercially a program that uses Dr
+Wimp) then a specific licence is needed from the Dr Wimp copyright
+holder.
+
+Public Domain libraries may make a reasonable charge for materials,
+handling, etc. as long as this does not exceed £2.00 (UK) net for the
+Dr Wimp package.
+
+The DrWimp library may be reproduced in part if crunching and mangling
+utilities such as !BSquasher are used, otherwise it must be reproduced
+in whole, complete with its opening REMs containing the Conditions of
+Use and the copyright banner.
+
+If the DrWimp library is being reproduced in full then it may be added
+to the !RunImage (or similar) file, and does not have to be separate.
+
+The author retains copyright of Dr Wimp, documentation and examples at
+all times.
+ --------------------------------------------------------------------
+You can download the latest version/upgrades from:
+Web site: http://www.rayfavre.me.uk/
+Or contact Ray Favre at:
+26 West Drayton Park Avenue, West Drayton, Middlesex, UB7 7QA, UK
+email: drwimp@rayfavre.me.uk
+--------------------------------------------------------------------
+
+Sliding Heap
+
+The source code for this version of the SlidingHeap module copyright Steven Haslam is released under the GNU public licence - for details see the file:
+
+<Common_Licences$Dir>.GPL-2.txt
+
+or downloaded from the URL:
+
+http://www.riscpkg.org/licences/GPL-2.txt

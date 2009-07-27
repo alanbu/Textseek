@@ -1,0 +1,9 @@
+Obey <Obey$Dir>.!Boot
+Run <Textseek$Dir>.Resources.ResFind Textseek
+
+RMEnsure SlidingHeap 2.0 RMLoad <Textseek$Dir>.SHeap.SlidingHp
+RMEnsure DDEUtils 1.0 RMRun System:Modules.DDEUtils
+RMEnsure DDEUtils 1.0 Error DDEUtils module is needed to use throwback
+
+WimpSlot -min 76k -max 76k
+Run <Textseek$Dir>.!RunImage %*0

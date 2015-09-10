@@ -1,6 +1,7 @@
 # Makefile for Textseek package
 
-VERSION=1.46-1
+VERSION=1.47-1
+FILEVERSION=$(subst .,/,$(VERSION))
 PACKAGES= \
 	Textseek_$(VERSION)
 
@@ -19,7 +20,7 @@ pkg:
 	patch -u Temp/$(INSTALL_TO)/!Textseek/!Run RunDiff
 	settype Temp.Apps.Text.!Textseek.!Run Obey
 	Dir Temp
-	zip -r ../RiscPkg/Textseek_$(VERSION) *
+	zip -r ^.RiscPkg.Textseek_$(FILEVERSION) *
 	Dir ^
 	rm -rf Temp
 

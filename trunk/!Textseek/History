@@ -139,7 +139,17 @@ v1∑45 22nd June 2009
 
 v1∑46 16th July 2009
  è Added ability to ignore specific files/directories by name ò intended for SVN use, but could be used more generally.   This does *not* support wildcarded searches, e.g. you cannot ignore all files ending /o...
- è Removed 79-character limit on <search path=>mainsearch> icon ò you can now start searches from lower down in the directory tree. This may lead to very wide search history menus!
+ è Removed 79-character limit on search path icon ò you can now start searches from lower down in the directory tree. This may lead to very wide search history menus!
  è ADJUST-click on iconbar now opens Choices window.
  è Corrected the numbering of the Help tokens in the Messages file, which had been broken for some years: the correct help messages are now associated with the correct icons/menus!
- 
+
+v1∑46ﬂ	 	28th August 2009
+	è	Increased the space reserved for machine code due to compilation errors.
+
+v1∑47	 	5th July 2015
+	è	Textseek now ignores errors caused by illegal characters in remotely-accessed filenames on other filesystems. 
+	è	Fix by Martin Avison: BASIC detokenize no longer crashes the application if it scans corrupt BASIC programs.
+
+v1∑47ﬂ	 	5th September 2015
+	è	Removed unused code in PROCmakemenu generating array of pointers for use by OS_HeapSort (OS_HeapSort does this automatically)
+	è	Patched filetype menu routines to cope with case of filetype name having been set to a blank string - N.B. produces inconsistent effects in that such a filetype will show the correct icon (if defined) only if hex values are being displayed, and a blank or query icon otherwise.

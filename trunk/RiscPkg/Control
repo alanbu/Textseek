@@ -1,9 +1,10 @@
 Package: Textseek
-Version: 1.46-1
+Version: 1.47-1
 Section: Text
 Priority: Optional
 Maintainer: Alan Buckley <alan_baa@hotmail.com>
-Standards-Version: 0.1.0
+Standards-Version: 0.4.0
+Components: Apps.Text.!Textseek (Movable)
 Licence: Free
 Description: Seek out specified words or phrases across multiple files.
  Textseek is a WIMP front-end to a fast machine-code search routine.
